@@ -13,89 +13,91 @@
     }
 
     body {
-      background-color: #0d1b2a;
+      background-color: #0b1526;
       min-height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 20px;
+      padding: 16px;
     }
 
     .portal-card {
-      background-color: #1b263b;
+      background-color: #162438;
       width: 100%;
-      max-width: 400px;
+      max-width: 390px;
       border-radius: 28px;
-      padding: 36px 24px;
-      box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+      padding: 36px 20px 24px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
       text-align: center;
-      border: 1px solid rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.04);
     }
 
     .logo-wrapper {
-      width: 90px;
-      height: 90px;
-      background-color: #ffffff;
-      border-radius: 50%;
-      margin: 0 auto 20px;
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 16px;
       display: flex;
       align-items: center;
       justify-content: center;
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.25);
+      border-radius: 50%;
       overflow: hidden;
-      padding: 8px;
+      background-color: #000000;
     }
 
     .logo-wrapper img {
       width: 100%;
       height: 100%;
-      object-fit: contain;
+      object-fit: cover;
+      display: block;
     }
 
     .portal-title {
-      font-size: 24px;
+      font-size: 22px;
       font-weight: 700;
       color: #ffffff;
       margin-bottom: 6px;
+      letter-spacing: 0.2px;
     }
 
     .portal-subtitle {
       font-size: 13px;
-      color: #94a3b8;
-      margin-bottom: 30px;
+      color: #8da2bb;
+      margin-bottom: 28px;
     }
 
     .category-group {
       display: flex;
       flex-direction: column;
-      gap: 16px;
-      margin-bottom: 32px;
+      gap: 14px;
+      margin-bottom: 28px;
     }
 
     .option-card {
       display: flex;
       align-items: center;
       background-color: #ffffff;
-      border-radius: 18px;
-      padding: 16px 20px;
+      border-radius: 16px;
+      padding: 14px 18px;
       text-decoration: none;
-      transition: transform 0.2s ease;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      transition: transform 0.15s ease, background-color 0.15s ease;
       cursor: pointer;
     }
 
     .option-card:active {
-      transform: scale(0.98);
+      transform: scale(0.97);
+      background-color: #f1f5f9;
     }
 
     .icon-box {
-      width: 46px;
-      height: 46px;
+      width: 44px;
+      height: 44px;
       border-radius: 12px;
       display: flex;
       align-items: center;
       justify-content: center;
       font-size: 22px;
-      margin-right: 16px;
+      margin-right: 14px;
       flex-shrink: 0;
     }
 
@@ -116,7 +118,7 @@
       font-size: 15px;
       font-weight: 700;
       color: #0f172a;
-      margin-bottom: 3px;
+      margin-bottom: 2px;
     }
 
     .text-desc {
@@ -133,45 +135,11 @@
     .footer-text {
       font-size: 11px;
       color: #64748b;
-      letter-spacing: 0.3px;
+      letter-spacing: 0.2px;
     }
   </style>
 </head>
 <body>
 
   <div class="portal-card">
-    <!-- CSL Logo (logo.png.png) -->
-    <div class="logo-wrapper">
-      <img src="logo.png.png" alt="CSL Logo">
-    </div>
-
-    <!-- Title -->
-    <h1 class="portal-title">CSL Portal</h1>
-    <p class="portal-subtitle">Please select your employment category</p>
-
-    <!-- Options -->
-    <div class="category-group">
-      <a href="permanent_login.html" class="option-card">
-        <div class="icon-box icon-blue">🏢</div>
-        <div class="text-content">
-          <div class="text-title">Permanent Employees</div>
-          <div class="text-desc">Full access & benefits</div>
-        </div>
-        <div class="arrow-icon">➔</div>
-      </a>
-
-      <a href="contract_login.html" class="option-card">
-        <div class="icon-box icon-orange">📋</div>
-        <div class="text-content">
-          <div class="text-title">Company on Contract</div>
-          <div class="text-desc">Contractual staff services</div>
-        </div>
-        <div class="arrow-icon">➔</div>
-      </a>
-    </div>
-
-    <p class="footer-text">© 2026 Cochin Shipyard Limited • All Rights Reserved</p>
-  </div>
-
-</body>
-</html>
+    <!-- CSL Logo (നിങ്ങളുടെ GitHub
